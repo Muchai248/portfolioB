@@ -4,6 +4,7 @@ function Container() {
   return (
     <>
     <header className="fixed items-center text-5xl font-medium left-52 top-1/3 text-green-500 ">Mark Muchai Mwaura</header><br/>
+    <img className="absolute top-56 right-1/4" src="src/assets/Screenshot from Screencast from 01-08-2024 11:00:02 AM.webm.png" alt="Image1"/>
     <div className="fixed left-52 top-1/2">
       <h1 className="flex items-center text-5xl font-medium ">I build</h1>
       <h2 className="flex items-center text-4xl font-medium ">
@@ -26,7 +27,7 @@ function Container() {
       <h3 className="flex items-center text-5xl font-medium">for the web.</h3>
       <br/>
       <hr className="fixed border-2 border-orange-500 w-1/2"></hr>
-      <p className="fixed items-center text-6xl font-medium left-52 top-3/4">A software engineer based in Africa who builds applications and websites.</p>
+      <p className="fixed items-center text-2xl font-medium left-52 top-3/4">A software engineer based in Africa who builds applications and websites.</p>
     </div>
     </>
   );
